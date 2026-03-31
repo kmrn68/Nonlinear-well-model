@@ -1,21 +1,26 @@
 # Nonlinear Oil & Gas Well Modeling
 
-This project focuses on the nonlinear dynamic modeling and stability analysis of an oil & gas well system using Python and CasADi.
+This project presents a nonlinear dynamic model of an oil & gas well system developed using Python and CasADi.
 
-## Features
+## Overview
+The model captures complex behaviors such as instability and slugging phenomena, which are critical in oil & gas production systems.
+
+## Key Features
 - Nonlinear dynamic system modeling
-- Equilibrium point computation using nonlinear optimization
+- Equilibrium point computation using nonlinear optimization (Ipopt)
 - Stability analysis via Jacobian eigenvalues
 - Bifurcation analysis (Hopf point detection)
-- Simulation of system dynamics
+- Dynamic simulation of system behavior
 
-## Tools & Technologies
+## Technologies
 - Python
 - CasADi
 - Numerical Optimization
 
-## Description
-The model captures complex behaviors such as instability and slugging phenomena in well systems. It is designed for research purposes in control systems and nonlinear dynamics.
+## Applications
+- Control systems analysis
+- Oil & gas production optimization
+- Nonlinear system research
 
 ## Author
 Kamran Keshavarz
